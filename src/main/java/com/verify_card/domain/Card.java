@@ -23,11 +23,11 @@ public class Card {
 
 
 	private String scheme; 
-	
+
 	private String type; 
-	
+
 	private String bank ;
-	
+
 	private int count  = 0 ; 
 
 	public Long getId() {
@@ -77,8 +77,8 @@ public class Card {
 	public void setCount(int count) {
 		this.count = count;
 	} 
-	
-	
 
-	
+
+
+
 }

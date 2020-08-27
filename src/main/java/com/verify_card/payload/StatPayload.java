@@ -4,20 +4,20 @@ import java.util.Map;
 
 public class StatPayload {
 
-	 boolean success ; 
+	boolean success ; 
 
-     int start ; 
+	int start ; 
 
-     int limit; 
+	int limit; 
 
-     long  size  ;
+	long  size  ;
 
-     Map<String, Integer> payload ;
-     
-     
+	Map<String, Integer> payload ;
+
+
 
 	public StatPayload(boolean success, int start, int limit, long size, Map<String, Integer> payload) {
-	
+
 		this.success = success;
 		this.start = start;
 		this.limit = limit;
@@ -64,9 +64,9 @@ public class StatPayload {
 	public void setPayload(Map<String, Integer> payload) {
 		this.payload = payload;
 	}
-     
-     
-	
-	
-	
+
+
+
+
+
 }

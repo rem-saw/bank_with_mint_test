@@ -1,11 +1,11 @@
 package com.verify_card.domain;
 
 public class CardDetail {
-	
+
 	String scheme ; 
 	String type ;
 	Bank bank ; 
-	
+
 	public String getScheme() {
 		return scheme;
 	}
@@ -24,10 +24,10 @@ public class CardDetail {
 	public void setBank(Bank bank) {
 		this.bank = bank;
 	} 
-	
-	
-	
-	
-	
+
+
+
+
+
 
 }

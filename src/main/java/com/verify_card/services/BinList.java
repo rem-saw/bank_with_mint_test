@@ -15,17 +15,17 @@ import com.verify_card.proxy.CardDataProxy;
 
 
 public class BinList implements  CardDataProxy {
-	
+
 	@Override
 	public ResponseEntity<?> cardData(String cardNumber){
-	
+
 		Map<String, String> uriVariables = new HashMap<>();
 		uriVariables.put("cardNumber", cardNumber);
-		
+
 		ResponseEntity<?> response = new RestTemplate().getForEntity(
 				"https://lookup.binlist.net/{cardNumber}", CardDetail.class,
 				uriVariables);
-	
+
 		return response ;
 	}
 

@@ -1,11 +1,11 @@
 package com.verify_card.payload;
 
 public class VerificationResponse {
-	
+
 	boolean success ;
 	VerificationPayload payload;
-	
-	
+
+
 
 	public VerificationResponse(boolean success, VerificationPayload payload) {
 		this.success = success;
@@ -27,7 +27,7 @@ public class VerificationResponse {
 	public void setPayload(VerificationPayload payload) {
 		this.payload = payload;
 	}
-	
-	
+
+
 
 }

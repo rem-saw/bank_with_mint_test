@@ -14,12 +14,12 @@ public class CardHandler {
 	CardHandler(CardDataProxy cardDataProxy) {
 		this.cardDataProxy = cardDataProxy;
 	}
-	
+
 	public ResponseEntity<?> getCardData (String cardNumber){
 		return cardDataProxy.cardData(cardNumber) ;
 	}
-	
-	
-	
-	
+
+
+
+
 }

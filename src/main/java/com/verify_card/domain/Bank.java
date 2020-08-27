@@ -3,10 +3,10 @@ package com.verify_card.domain;
 
 public class Bank {
 
-	  String name ; 
-	  String  url ; 
-	  String phone ; 
-	  String city ;
+	String name ; 
+	String  url ; 
+	String phone ; 
+	String city ;
 	public String getName() {
 		return name;
 	}
@@ -31,7 +31,7 @@ public class Bank {
 	public void setCity(String city) {
 		this.city = city;
 	} 
-	 
-	
-	
+
+
+
 }

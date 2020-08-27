@@ -7,12 +7,12 @@ public class VerificationPayload {
 	String scheme ; 
 	String type ;
 	String bank ; 
-	
-	
-	
-	
+
+
+
+
 	public VerificationPayload(  String bank,String scheme,String type) {
-	
+
 		this.scheme = scheme;
 		this.type = type;
 		this.bank = bank;
@@ -36,5 +36,5 @@ public class VerificationPayload {
 		this.bank = bank;
 	}
 
-	
+
 }
